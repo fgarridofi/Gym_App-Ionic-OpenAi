@@ -8,7 +8,7 @@ Este es un portfolio creado con Ionic y Angular usando la API de OpenAi.
  * [LinkedIn](www.linkedin.com/in/fernando-garrido-fidalgo)
  
 ## Ver ejemplo en vivo
-- [https://fgarridofi.github.io/Gym_App-Ionic-OpenAi/] (https://fgarridofi.github.io/Gym_App-Ionic-OpenAi/)
+- [https://fgarridofi.github.io/Gym_App-Ionic-OpenAi/](https://fgarridofi.github.io/Gym_App-Ionic-OpenAi/)
 
 ## Instalación
 - 1-Crea una aplicacion en Ionic/ utiliza unos ficheros de node_modules.
