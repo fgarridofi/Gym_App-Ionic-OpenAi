@@ -1,0 +1,65 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Ejercicios de cardio</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding ion-text-center page-content">
+  <ion-text>
+    <h2 class="ion-text-center">Selecciona el tipo de ejercicio que deseas entrenar:</h2>
+  </ion-text>
+
+  <ion-row class="horizontal-line">
+    <ion-col></ion-col>
+  </ion-row>
+
+  <ion-list *ngFor="let select of cardioExercise">
+    <ion-item>
+      <ion-label>Ejercicio</ion-label>
+      <ion-select [(ngModel)]="select.value">
+        <ion-select-option value="Correr/Andar">Correr/Andar</ion-select-option>
+        <ion-select-option value="Ciclismo">Ciclismo</ion-select-option>
+        <ion-select-option value="Elíptica">Elíptica</ion-select-option>
+        <ion-select-option value="Remo">Remo</ion-select-option>
+        <ion-select-option value="Comba">Comba</ion-select-option>
+        <ion-select-option value="Natación">Natación</ion-select-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+
+  <div style="margin-top: 30px;"></div>
+
+  <ion-text>
+    <h2 class="ion-text-center">Selecciona el objetivo:</h2>
+  </ion-text>
+
+  <ion-row class="horizontal-line">
+    <ion-col></ion-col>
+  </ion-row>
+
+  <ion-list>
+  <ion-radio-group [(ngModel)]="objetivo">
+  
+    <ion-item>
+      <ion-label>Perder grasa</ion-label>
+      <ion-radio aria-label="objetivo" slot="start" value="Perder grasa"></ion-radio>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Ganar resistencia</ion-label>
+      <ion-radio aria-label="objetivo" slot="start" value="Ganar resistencia"></ion-radio>
+    </ion-item>
+  </ion-radio-group>
+  </ion-list>
+
+  <div style="margin-top: 30px;"></div>
+
+</ion-content>
+
+
+<ion-button  expand="full" (click)="startTraining()">
+  Comenzar entrenamiento
+</ion-button>

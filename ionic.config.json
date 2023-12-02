@@ -1,0 +1,7 @@
+{
+  "name": "practicaGYMIonic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

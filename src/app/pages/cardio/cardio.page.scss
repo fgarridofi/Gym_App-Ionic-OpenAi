@@ -1,0 +1,25 @@
+.page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  .flexible-space {
+    flex: 1;
+  }
+
+  .horizontal-line {
+    border-bottom: 1px solid #ccc; 
+    margin: 20px 0; 
+  }
+
+  ion-button {
+    --background: #3880ff;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 20px;
+    margin: 10px 0;
+  }

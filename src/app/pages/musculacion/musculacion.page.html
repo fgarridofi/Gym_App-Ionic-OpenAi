@@ -1,0 +1,48 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Ejercicios de musculación</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding ion-text-center page-content">
+  <ion-text>
+    <h2 class="ion-text-center">Selecciona los grupos musculares que deseas entrenar:</h2>
+  </ion-text>
+
+  <ion-row class="horizontal-line">
+    <ion-col></ion-col>
+  </ion-row>
+
+  <ion-list *ngFor="let select of muscleGroups; let i = index">
+    <ion-item>
+      <ion-label>Grupo Muscular {{ i + 1 }}</ion-label>
+      <ion-select [(ngModel)]="select.value">
+        <ion-select-option value="pectorales">Pectorales</ion-select-option>
+        <ion-select-option value="hombros">Hombros</ion-select-option>
+        <ion-select-option value="espalda">Espalda</ion-select-option>
+        <ion-select-option value="pierna">Pierna</ion-select-option>
+        <ion-select-option value="abdominales">Abdominales</ion-select-option>
+        <ion-select-option value="biceps">Bíceps</ion-select-option>
+        <ion-select-option value="triceps">Tríceps</ion-select-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+
+  <div style="margin-top: 30px;"></div>
+
+  <ion-fab (click)="addMuscleGroup()">
+    <ion-fab-button>
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+  <div class="flexible-space"></div>
+
+</ion-content>
+
+<ion-button  expand="full" (click)="startTraining()">
+  Comenzar entrenamiento
+</ion-button>
