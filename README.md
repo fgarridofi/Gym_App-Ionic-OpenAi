@@ -11,9 +11,9 @@ Este es un portfolio creado con Ionic y Angular usando la API de OpenAi.
 - [ENLACEGITHUBPAGES] (ENLACEGITHUBPAGES)
 
 ## Instalación
-1-Crea una aplicacion en Ionic/ utiliza unos ficheros de node_modules
-2-Arrastra este proyecto a tu nuevo proyecto.
-3- ¡¡Ya esta listo para ser utilizado!!
+- 1-Crea una aplicacion en Ionic/ utiliza unos ficheros de node_modules.
+- 2-Arrastra este proyecto a tu nuevo proyecto.
+- 3- ¡¡Ya esta listo para ser utilizado!!
 
 
 ## Licencia
