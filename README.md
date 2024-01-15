@@ -12,9 +12,9 @@ Este es un portfolio creado con Ionic y Angular usando la API de OpenAi.
 
 
 ## Instalación
-- 1-Clona este repositorio: git clone https://github.com/fgarridofi/Gym_App_Ionic-OpenAi-clone.git
-- 2-Navega a la carpeta del proyecto: cd Gym_App_Ionic-OpenAi-clone
-- 3-Instala las dependencias: npm install
+- 1-Clona este repositorio: `git clone https://github.com/fgarridofi/Gym_App_Ionic-OpenAi-clone.git`
+- 2-Navega a la carpeta del proyecto: `cd Gym_App_Ionic-OpenAi-clone`
+- 3-Instala las dependencias: `npm install`
 - 3- ¡¡Ya esta listo para ser utilizado!!
 
 
